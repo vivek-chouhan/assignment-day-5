@@ -1,0 +1,28 @@
+<html>
+<table>
+    <form action="Thanks.html">
+<tr><th colspan='2'>Registration Form with Validation </th></tr>
+    <tr><td>user Id</td><td><input id=z1 type='text' required pattern="[A-Za-z ]{3,20}"></td></tr><br>
+    <tr><td>Password</td><td><input type=password id=z2 required pattern=".{8,"}></td></tr><br>
+    <tr><td>Name<td><input id=z3><br>
+    <tr><td>DOB<td><input type=date id=z4><br>
+    <tr><td>E-mail ID<td><input type='Email' id=z5><br>
+    <tr><td>Contact<td><input type='contact' pattern="[0-9]{10}" id='z6'><br>
+    <tr><td>Address<td><textarea id='z7'></textarea></td><tr><br>
+
+    <tr><td>Country</td>
+    <td>
+    <select id='z8'>
+    <option>India</option>
+    <option>Bangladesh</option>
+    <option>Pakistan</option>
+    <option>Bhutan</option>
+    <option>Russia</option>
+    <option>Japan</option>
+    </select>
+    </td><tr>
+    <tr><td></td><td><input type='submit' value='Register' onclick=xyz()><p id=p1></p></td>
+
+</form>
+    </table>
+    </html>
